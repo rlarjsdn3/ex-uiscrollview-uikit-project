@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		9EE1A12F2AD58D2700E552AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1A12E2AD58D2700E552AF /* AppDelegate.swift */; };
 		9EE1A1312AD58D2700E552AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1A1302AD58D2700E552AF /* SceneDelegate.swift */; };
-		9EE1A1332AD58D2700E552AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1A1322AD58D2700E552AF /* ViewController.swift */; };
 		9EE1A1362AD58D2700E552AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE1A1342AD58D2700E552AF /* Main.storyboard */; };
 		9EE1A1382AD58D2900E552AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE1A1372AD58D2900E552AF /* Assets.xcassets */; };
 		9EE1A13B2AD58D2900E552AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE1A1392AD58D2900E552AF /* LaunchScreen.storyboard */; };
+		9EF218232AF7344400189DF9 /* Basic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF218222AF7344400189DF9 /* Basic.storyboard */; };
+		9EF218252AF7344E00189DF9 /* Customizing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF218242AF7344E00189DF9 /* Customizing.storyboard */; };
+		9EF218272AF7345500189DF9 /* Zooming.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF218262AF7345500189DF9 /* Zooming.storyboard */; };
+		9EF218292AF7345C00189DF9 /* Pages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF218282AF7345C00189DF9 /* Pages.storyboard */; };
+		9EF2182B2AF7346700189DF9 /* ScrollingTheInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF2182A2AF7346700189DF9 /* ScrollingTheInterface.storyboard */; };
+		9EF2182F2AF7347C00189DF9 /* CustomizingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF2182E2AF7347C00189DF9 /* CustomizingViewController.swift */; };
+		9EF218312AF7348A00189DF9 /* ZoomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF218302AF7348A00189DF9 /* ZoomingViewController.swift */; };
+		9EF218332AF7349600189DF9 /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF218322AF7349600189DF9 /* PagesViewController.swift */; };
+		9EF218362AF74AC400189DF9 /* PagesWithZooming.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF218352AF74AC400189DF9 /* PagesWithZooming.storyboard */; };
+		9EF218382AF74ACB00189DF9 /* PagesWithZoomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF218372AF74ACB00189DF9 /* PagesWithZoomingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9EE1A12B2AD58D2700E552AF /* ScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE1A12E2AD58D2700E552AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE1A1302AD58D2700E552AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9EE1A1322AD58D2700E552AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9EE1A1352AD58D2700E552AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EE1A1372AD58D2900E552AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EE1A13A2AD58D2900E552AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EE1A13C2AD58D2900E552AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF218222AF7344400189DF9 /* Basic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Basic.storyboard; sourceTree = "<group>"; };
+		9EF218242AF7344E00189DF9 /* Customizing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Customizing.storyboard; sourceTree = "<group>"; };
+		9EF218262AF7345500189DF9 /* Zooming.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Zooming.storyboard; sourceTree = "<group>"; };
+		9EF218282AF7345C00189DF9 /* Pages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pages.storyboard; sourceTree = "<group>"; };
+		9EF2182A2AF7346700189DF9 /* ScrollingTheInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollingTheInterface.storyboard; sourceTree = "<group>"; };
+		9EF2182E2AF7347C00189DF9 /* CustomizingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingViewController.swift; sourceTree = "<group>"; };
+		9EF218302AF7348A00189DF9 /* ZoomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomingViewController.swift; sourceTree = "<group>"; };
+		9EF218322AF7349600189DF9 /* PagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
+		9EF218352AF74AC400189DF9 /* PagesWithZooming.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PagesWithZooming.storyboard; sourceTree = "<group>"; };
+		9EF218372AF74ACB00189DF9 /* PagesWithZoomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesWithZoomingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,70 @@
 			children = (
 				9EE1A12E2AD58D2700E552AF /* AppDelegate.swift */,
 				9EE1A1302AD58D2700E552AF /* SceneDelegate.swift */,
-				9EE1A1322AD58D2700E552AF /* ViewController.swift */,
 				9EE1A1342AD58D2700E552AF /* Main.storyboard */,
+				9EF2181D2AF7323300189DF9 /* Basic */,
+				9EF2181E2AF733F000189DF9 /* Customizing */,
+				9EF2181F2AF7342B00189DF9 /* Zooming */,
+				9EF218202AF7343200189DF9 /* Pages */,
+				9EF218342AF74AB400189DF9 /* PagesWithZooming */,
+				9EF218212AF7343700189DF9 /* ScrollingTheInterface */,
 				9EE1A1372AD58D2900E552AF /* Assets.xcassets */,
 				9EE1A1392AD58D2900E552AF /* LaunchScreen.storyboard */,
 				9EE1A13C2AD58D2900E552AF /* Info.plist */,
 			);
 			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		9EF2181D2AF7323300189DF9 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				9EF218222AF7344400189DF9 /* Basic.storyboard */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		9EF2181E2AF733F000189DF9 /* Customizing */ = {
+			isa = PBXGroup;
+			children = (
+				9EF218242AF7344E00189DF9 /* Customizing.storyboard */,
+				9EF2182E2AF7347C00189DF9 /* CustomizingViewController.swift */,
+			);
+			path = Customizing;
+			sourceTree = "<group>";
+		};
+		9EF2181F2AF7342B00189DF9 /* Zooming */ = {
+			isa = PBXGroup;
+			children = (
+				9EF218262AF7345500189DF9 /* Zooming.storyboard */,
+				9EF218302AF7348A00189DF9 /* ZoomingViewController.swift */,
+			);
+			path = Zooming;
+			sourceTree = "<group>";
+		};
+		9EF218202AF7343200189DF9 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9EF218282AF7345C00189DF9 /* Pages.storyboard */,
+				9EF218322AF7349600189DF9 /* PagesViewController.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		9EF218212AF7343700189DF9 /* ScrollingTheInterface */ = {
+			isa = PBXGroup;
+			children = (
+				9EF2182A2AF7346700189DF9 /* ScrollingTheInterface.storyboard */,
+			);
+			path = ScrollingTheInterface;
+			sourceTree = "<group>";
+		};
+		9EF218342AF74AB400189DF9 /* PagesWithZooming */ = {
+			isa = PBXGroup;
+			children = (
+				9EF218352AF74AC400189DF9 /* PagesWithZooming.storyboard */,
+				9EF218372AF74ACB00189DF9 /* PagesWithZoomingViewController.swift */,
+			);
+			path = PagesWithZooming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +200,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF218362AF74AC400189DF9 /* PagesWithZooming.storyboard in Resources */,
 				9EE1A13B2AD58D2900E552AF /* LaunchScreen.storyboard in Resources */,
+				9EF218232AF7344400189DF9 /* Basic.storyboard in Resources */,
 				9EE1A1382AD58D2900E552AF /* Assets.xcassets in Resources */,
 				9EE1A1362AD58D2700E552AF /* Main.storyboard in Resources */,
+				9EF2182B2AF7346700189DF9 /* ScrollingTheInterface.storyboard in Resources */,
+				9EF218272AF7345500189DF9 /* Zooming.storyboard in Resources */,
+				9EF218252AF7344E00189DF9 /* Customizing.storyboard in Resources */,
+				9EF218292AF7345C00189DF9 /* Pages.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE1A1332AD58D2700E552AF /* ViewController.swift in Sources */,
 				9EE1A12F2AD58D2700E552AF /* AppDelegate.swift in Sources */,
+				9EF218382AF74ACB00189DF9 /* PagesWithZoomingViewController.swift in Sources */,
+				9EF2182F2AF7347C00189DF9 /* CustomizingViewController.swift in Sources */,
+				9EF218332AF7349600189DF9 /* PagesViewController.swift in Sources */,
 				9EE1A1312AD58D2700E552AF /* SceneDelegate.swift in Sources */,
+				9EF218312AF7348A00189DF9 /* ZoomingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
